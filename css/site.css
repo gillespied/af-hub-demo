@@ -1,0 +1,46 @@
+.categoriescontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.333% - 60px);
+    /* 33.333% width minus some gap for the 3-column layout */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.category a i {
+    margin-right: 10px;
+}
+
+.category p {
+    color: #666;
+    margin: 0;
+}

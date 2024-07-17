@@ -1,0 +1,14 @@
+---
+layout: default
+title: People
+permalink: "/people"
+---
+
+<div>
+  {% for category in site.categories %}
+    <div>
+      <h2>{{ category.title }}</h2>
+      <p>{{ category.short }}</p>
+    </div>
+  {% endfor %}
+</div>
